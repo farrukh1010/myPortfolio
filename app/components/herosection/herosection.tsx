@@ -17,7 +17,7 @@ const HeroSection = () => {
         >
           <h1 className="text-yellow-400 mb-4 text-4xl sm:text-5xl lg:text-6xl lg:leading-normal font-extrabold">
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-500 to-green-400">
-              Hello, I'm Farrukh Zaman {" "}
+              Hello, I&apos;m Farrukh Zaman {" "}
             </span>
             <br></br>
             <TypeAnimation
@@ -35,22 +35,22 @@ const HeroSection = () => {
             />
           </h1>
           <p className="text-[#fffff] text-base sm:text-lg mb-6 lg:text-xl">
-          A passionate Full Stack Developer with a background in Computer
+            A passionate Full Stack Developer with a background in Computer
             Science. Currently working as a freelancer and always looking for
             new challenges to take on.
           </p>
           <div>
-          <Link
+            <Link
               href="#contact"
               className="px-1 inline-block py-1 w-full sm:w-fit rounded-full bg-gradient-to-br from-primary-500 to-secondary-500 hover:bg-slate-800 text-white mt-3"
             >
               <button className="px-6 inline-block py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-green-700 to-green-600 text-white">
-              <span className="block bg-slate-600 hover: rounded-full px-5 py-2">
-                Have a Project?
-              </span>
+                <span className="block bg-slate-600 hover: rounded-full px-5 py-2">
+                  Have a Project?
+                </span>
               </button>
             </Link>
-            
+
           </div>
         </motion.div>
         <motion.div
